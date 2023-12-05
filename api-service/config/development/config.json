@@ -1,0 +1,19 @@
+{
+  "contracts": {
+    "FarawayFactory": {
+      "name": "",
+      "title": "Faraway Factory",
+      "symbol": "",
+      "address": "0x1907C22711488bCcdaA3583D853Bc87A583cf845",
+      "abi": [
+        "function collections() public view returns (address[] memory)",
+
+        "function mintToken(address collection, address recipient, uint256 tokenId, string memory tokenUri) public returns (uint256)",
+        "function createCollection(string memory name, string memory symbol) public returns (address)",
+
+        "event CollectionCreated(address collection, string name, string symbol)",
+        "event TokenMinted(address collection, address recipient, uint256 tokenId, string tokenUri)"
+      ]
+    }
+  }
+}

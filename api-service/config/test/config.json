@@ -1,0 +1,16 @@
+{
+  "contracts": {
+    "blank": {
+      "name": "",
+      "title": "Blank",
+      "symbol": "",
+      "address": "0x36bfc2cf24f7B72274eF718139B00542DED1611D",
+      "abi": [
+        "function title() public pure returns (string memory)",
+        "function owner() public view returns (address)",
+        "function counter() public view returns (uint256)",
+        "function counter(uint256 value) public"
+      ]
+    }
+  }
+}

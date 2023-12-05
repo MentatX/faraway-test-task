@@ -1,0 +1,35 @@
+# Config with secrets
+*secret.json
+
+# Coverage info
+coverage/
+
+# Logs
+# *.log
+logs/
+
+# Compiled JavaScript
+dist/
+
+# Certificats
+cert/
+
+# PM2
+#*.config.js
+
+# Dependency directories
+node_modules/
+
+# Environment
+.env.*
+!.env.blank
+
+# Optional eslint cache
+.eslintcache
+
+# eslint files
+.eslintignore
+.eslintrc
+
+# jshint files
+.jshintrc
