@@ -1,0 +1,26 @@
+{
+  "name": "faraway-erc721",
+  "version": "1.0.0",
+  "description": "ERC721 collection for the FaraWay",
+  "main": "index.js",
+  "scripts": {
+    "note": "echo 'Populate .env.* files for mainnet & testnet.'",
+    "clean": "hardhat clean",
+    "deploy": ". ./.env.blank && npx hardhat run scripts/deploy.ts",
+    "deploy:sepolia": ". ./.env.sepolia && npx hardhat run scripts/deploy.ts --network sepolia",
+    "deploy:goerli": ". ./.env.goerli && npx hardhat run scripts/deploy.ts --network goerli",
+    "compile": ". ./.env.blank && npx hardhat compile --force",
+    "test": ". ./.env.blank && npx hardhat test",
+    "test:watch": ". ./.env.blank && REPORT_GAS=false npx hardhat watch test",
+    "coverage": "hardhat coverage"
+  },
+  "keywords": [],
+  "author": "Oleg Kuzmenko <zeroflashgames@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "hardhat": "^2.15.0",
+    "hardhat-watcher": "^2.5.0",
+    "mocha-chai-jest-snapshot": "^1.1.4"
+  }
+}
